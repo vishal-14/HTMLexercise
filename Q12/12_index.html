@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="layout.css" type="text/css">
+        <title>
+          Bug Report
+        </title>
+    </head>
+
+    <body>
+        <div class="head">
+    <div class="inside-head">
+        <div class="head-left"><h2>TO THE NEW</h2></div>
+        <div class="head-right">
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">QUICK HELP</a></li>
+            </ul>
+        </div>
+    </div>
+    <hr>
+</div>
+        <div class="all" align="center">
+            <div class="top">
+                <h2 style="margin-left:30px;">&nbsp;&nbsp;Bug Report</h2>
+            </div>
+            <div class="main">
+                <form>
+                    <label class="items">Title:*</label>
+                    <input type="text" name="title" class="items" required>
+
+                    <label class="items">Description:*</label><br>
+                    <textarea name="description" style="height: 75px; width:416px;" class="items"></textarea>
+
+                    <label class="items">Operating System:*</label>
+                    <select name="os">
+                        <option value="Select">Select</option>
+                        <option value="w10">Windows 10</option>
+                        <option value="w8">Windows 8</option>
+                        <option value="w7">Windows 7</option>
+                        <option value="wxp">Windows XP</option> <option value="ubu">Ubuntu</option>
+                        <option value="mac">Mac OS</option>
+                    </select>
+
+                    <label class="items">Product:*</label>
+                    <select name="prod">
+                        <option value="Select">Select</option>
+                        <option value="f">Formoid</option>
+                        <option value="a">Android</option>
+                        <option value="x">XYZ</option>
+                        <option value="abc">ABC</option>
+                    </select>
+
+                    <label class="items">Version:*</label>
+                    <br>
+                    <input type="text" name="version" required class="items" style="width: 100px">
+                    <br>
+                    <label style="margin-left:30px;" class="items">License:*</label>
+                    <br><br>
+                    <input type="radio" name="licence" value="free" style="margin-left:30px;">Free
+                    <input type="radio" name="licence" value="business" style="margin-left:200px;">Business
+                    <br><br>
+                    <label class="items">Severity:*</label>
+                    <select name="severity">
+                        <option value="Select">Select</option>
+                        <option value="high">High</option>
+                        <option value="med">Medium</option>
+                        <option value="low">Low</option>
+                        <option value="NA">Not Important</option>
+                    </select>
+                        <label class="items">Attachments:*</label><br>
+                        <input type="file" name="extra" class="items">
+                    </form>
+                </div>
+                <div class="last" class="items">
+                    <input type="submit" name="send" value="Send" style="font-size:18px; margin-left:395px; color:white; border:none; border-radius:6px;background-color:mediumaquamarine; width:70px; height:40px;">
+                </div>
+        </div>
+    </body>
+</html>
